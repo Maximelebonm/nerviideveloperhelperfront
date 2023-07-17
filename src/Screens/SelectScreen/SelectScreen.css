@@ -1,0 +1,61 @@
+#selectedScreenButtonContainer{
+    display : flex;
+    justify-content: center;
+    width : 100%;
+    padding-top : 10px;
+}
+.SelectScreenButton{
+    padding : 10px 20px 10px 20px;
+    font-size: 20px;
+    margin-left : 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    transition-duration: 300ms;
+    transform-origin: left;
+    border-style :groove;
+    scale: 1;
+    transform-origin : center center;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.252);
+}
+.SelectScreenButton:hover{
+    border-color: orange;
+    color : orange;
+}
+.SelectScreenButton:active{
+    border-color: orange;
+}
+
+#selectedScreenListContainer{
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SelectedScreenItemList{
+    text-decoration: none;
+   display : flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding : 10px;
+    margin : 10px;
+    width : 90%;
+    color : white;
+    height : 50px;
+    background-color: rgb(62, 62, 62);
+}
+
+.SelectedScreenItemList:hover{
+    background-color: rgb(34, 34, 34);
+    border-color : rgba(128, 128, 128, 0)
+}
+
+#selectedScreenRightContainer{
+    text-align: end;
+}
+
+#selectedScreenMotClef{
+    color : rgb(136, 136, 136);
+    font-size: 14px;
+}

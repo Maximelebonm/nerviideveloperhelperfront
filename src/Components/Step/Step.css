@@ -1,0 +1,45 @@
+.StepContainer{
+    padding : 10px;
+    display: flex;
+    width : auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border : 5px 5px 5px 5px;
+    border-radius: 10px;
+    border-color: #d2691e;
+}
+.StepContainer article{
+    width : 50%;
+    align-self: center;
+}
+
+#StepTitle{
+    font-size: 36px;
+}
+.StepImageContainer{
+    padding : 5px;
+}
+
+.StepCode, .StepImage{
+    width : 50%;
+    height : auto;
+    align-self: center;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .StepContainer article{
+        width : auto;
+    }
+    .StepContainer{
+        width : auto;
+    }
+    .StepImage {
+        width : 95%;
+    }
+    .StepCode{
+        width : 95%;
+    }
+}

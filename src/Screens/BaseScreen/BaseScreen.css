@@ -1,0 +1,18 @@
+/* main {
+
+} */
+
+#BaseScreenBottomContainer {
+    position : absolute;
+    /* width : 500px;
+    height : 500px; */
+
+    
+}
+
+#baseScreenBottomItem1 {
+    background-color: blue;
+    width : 100px;
+    height : 100px;
+    rotate:calc(10deg)
+}
